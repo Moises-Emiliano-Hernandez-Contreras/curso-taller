@@ -19,6 +19,30 @@ async function getPosts(id) {
 // MÉTODO PARA OBTENER USUARIOS
 async function getUsers() {
      console.log("Costos")
+     const costos=[
+        {
+            tipo:"Comunidad UABJO",
+            precio:"$500"
+        },
+        {
+            tipo:"Escuela de Ciencias",
+            precio:"$300"
+        },
+        {
+            tipo:"Exterior UABJO",
+            precio:"$800"
+        }
+]
+for (let i = 0; i < costos.length; i++) {
+    const precio = costos[i];
+    console.log(precio.tipo)
+    let string = '';
+    string += ` <p class="text-center sliderText fs-1">${precio.tipo}</p>`;
+    string += `<p class="text-center fs-2"><b>${precio.precio}</b></p>`;
+    string += `</div>`;
+    texto.innerHTML += string;
+}
+
 /*    await fetch('https://jsonplaceholder.typicode.com/users')
         .then((resp) => {
             return resp.json();

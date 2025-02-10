@@ -25,7 +25,7 @@ a:hover {
 }
 
 h3 {
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
@@ -244,9 +244,9 @@ a.botonGetStarted:hover {
 }
 
 .cardFeatures {
-    background: #ffffff;
+    background-color: #f6f6f6;    
     width: 30%;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 1.25rem;
     transition: 0.4s;
     margin-bottom: 20px;
@@ -277,7 +277,7 @@ a.botonGetStarted:hover {
     margin-bottom: 1rem;
 }
 
-.cardFeatures h4 {
+.cardFeatures h4 {    
     font-size: 14px;
     font-weight: bold;
 }
@@ -467,6 +467,7 @@ a.botonGetStarted:hover {
     margin: 15px auto;
     font-style: italic;
     color: #9c9c9c;
+    font-weight: bold;
 }
 
 .carousel-indicators li {
@@ -549,6 +550,7 @@ a.botonGetStarted:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .boxTextFooter p {
@@ -785,9 +787,11 @@ a.botonGetStarted:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
+        
     }
 }
 #lista{
+    font-weight: bold;
     padding-left: 20%;
     padding-right: 20%;
 }

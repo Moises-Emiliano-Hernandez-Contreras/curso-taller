@@ -228,7 +228,7 @@ a.botonGetStarted:hover {
 
 .boxFeatures {
     padding: 50px;
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
     /* height: 100vh; */
 }
 
@@ -329,7 +329,7 @@ a.botonGetStarted:hover {
 }
 
 .contenido h3 {
-    font-size: 80px;
+    font-size: 70px;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -404,7 +404,8 @@ a.botonGetStarted:hover {
 .boxAbout {
     padding: 50px;
     background-color: #f6f6f6;
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
 }
 
 .about {
@@ -785,4 +786,8 @@ a.botonGetStarted:hover {
         justify-content: center;
         text-align: center;
     }
+}
+#lista{
+    padding-left: 20%;
+    padding-right: 20%;
 }
